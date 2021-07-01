@@ -1,0 +1,64 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@font-face{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400, 700;
+    src: url('https://fonts.google.com/specimen/Inter');
+}
+
+body {
+    background-color: #090b1a;
+    font-size: 15px;
+    margin: 0 auto;
+    width: 1440px;
+}
+.container {
+    width: 1110px;
+    background-color: #1b1938;
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
+    margin: 10% auto;
+}
+
+.container .text{
+    padding: 50px;
+    color:white;
+    flex-direction: column;
+}
+
+.container .text .text-container span{
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.container .text .text-container span strong{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.container .text h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.container .text h1 strong{
+    color:#aa5cdb;
+}
+
+.container .text p{
+/*  */
+}
+
+.container .text span{
+/*  */
+}
+
+.container img {
+    border-radius: 0 15px 15px 0;
+}
