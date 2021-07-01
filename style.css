@@ -1,64 +1,112 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
-@font-face{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400, 700;
-    src: url('https://fonts.google.com/specimen/Inter');
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
 }
 
 body {
-    background-color: #090b1a;
-    font-size: 15px;
-    margin: 0 auto;
-    width: 1440px;
+	background-color: #090b1a;
+	font-size: 15px;
+	margin: 0 auto;
+	width: 1440px;
 }
 .container {
-    width: 1110px;
-    background-color: #1b1938;
-    display: flex;
-    border-radius: 15px;
-    justify-content: center;
-    margin: 10% auto;
+	width: 1110px;
+	background-color: #1b1938;
+	display: flex;
+	border-radius: 15px;
+	justify-content: center;
+	margin: 10% auto;
 }
 
-.container .text{
-    padding: 50px;
-    color:white;
-    flex-direction: column;
+.container .text {
+	padding: 50px;
+	color: hsl(0, 0%, 100%);
+	flex-direction: row;
 }
 
-.container .text .text-container span{
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 15px;
-    font-weight: normal;
+.container .text .text-container span {
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 15px;
+	font-weight: normal;
 }
 
-.container .text .text-container span strong{
-    font-weight: bold;
-    font-size: 25px;
+.container .text .text-container span strong {
+	font-weight: bold;
+	font-size: 25px;
 }
-
 
 .container .text h1 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 40px;
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
 }
 
-.container .text h1 strong{
-    color:#aa5cdb;
+.container .text h1 strong {
+	color: #aa5cdb;
 }
 
-.container .text p{
-/*  */
+.container .text p {
+	/*  */
 }
 
-.container .text span{
-/*  */
+.container .text span {
+	/*  */
+}
+
+.container .overlay {
+	height: 446px;
+	background: hsl(277, 64%, 61%);
+	border-radius: 0 15px 15px 0;
 }
 
 .container img {
-    border-radius: 0 15px 15px 0;
+	border-radius: 0 15px 15px 0;
+	mix-blend-mode: multiply;
+	opacity: 0.8;
+}
+
+.info {
+	line-height: 1.7rem;
+	width: 80%;
+	font-family: "Lexend Deca";
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+.info .stats {
+	display: flex;
+	color: hsla(0, 0%, 100%, 0.6);
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 3.5rem;
+}
+
+.info .stats strong {
+	font-family: "Inter";
+	font-size: 1.5rem;
+	color: hsl(0, 0%, 100%);
+}
+
+.companies,
+.templates,
+.queries {
+	display: flex;
+	flex-direction: column;
+}
+
+.attribution {
+	font-size: 1.5rem;
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+.attribution a {
+	text-decoration: none;
+	color: grey;
+}
+.attribution a:hover,
+.attribution a:active {
+	color: hsla(0, 0%, 100%, 0.75);
 }
