@@ -1,7 +1,7 @@
 # Frontend Mentor - Stats preview card component
 
 
-![My design only for desktop version](images/preview.png)
+![My design only for desktop version](images/preview.png?raw=true)
 
 ## Welcome! 👋
 
